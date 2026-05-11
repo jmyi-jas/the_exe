@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-法院工具箱
-功能1：法院文书下载
-功能2：起诉状信息提取（含扫描版 PDF OCR 支持，EasyOCR 版）
-功能3：初筛 - 判决/裁定书文件夹重命名
-"""
 
 import os
 import re
@@ -14,7 +8,7 @@ import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 from collections import defaultdict
 from pathlib import Path
-from typing import Optional, Tuple          # ← 新增此行
+from typing import Optional, Tuple         
 
 import pandas as pd
 import requests
